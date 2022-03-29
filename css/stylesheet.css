@@ -1,0 +1,19 @@
+li {
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+li:hover::after {
+    content: '[x]';
+    font-size: 14px;
+    color: #aaa;
+    margin-left: 4px;
+}
+
+.reason {
+    margin-top: 10px;
+}
+
+div.horce-name {
+    display: flex;
+}
